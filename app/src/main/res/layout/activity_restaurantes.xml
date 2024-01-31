@@ -6,4 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".Restaurantes">
 
+    <ImageView
+        android:id="@+id/bannerRestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/restaurantebanner"
+        android:adjustViewBounds="true"
+        app:layout_constraintVertical_bias="0"
+
+        />
+    <TextView
+        android:id="@+id/titulohomerestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bannerRestaurante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/titulohomerestaurantes"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.1"
+        />
+
+    <TextView
+        android:id="@+id/descripcionrestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/titulohomerestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/descripcionrestaurantes"
+        app:layout_constraintVertical_bias="0.1"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/manorestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/descripcionrestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/mano"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.3"
+        />
+    <Button
+        android:id="@+id/botonhomehoteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/descripcionrestaurantes"
+        app:layout_constraintStart_toEndOf="@id/manorestaurantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.4"
+        android:backgroundTint="@color/brown"
+        android:text="@string/botonhomehoteles"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
