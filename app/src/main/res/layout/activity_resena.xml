@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resena">
+
+        <ImageView
+            android:id="@+id/bannerOld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/old"
+            android:adjustViewBounds="true"
+            app:layout_constraintVertical_bias="0.02"
+            />
+        <TextView
+            android:id="@+id/titulohomeresena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/bannerOld"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="@string/titulohomeresena2"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintVertical_bias="0.02"
+            />
+        <TextView
+            android:id="@+id/historiamanaure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/titulohomeresena"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="@string/historiamanaure"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="25dp"
+            app:layout_constraintVertical_bias="0.01"
+
+            />
+        <ImageView
+            android:id="@+id/footer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/historiamanaure"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/old_2"
+            android:adjustViewBounds="true"
+            app:layout_constraintVertical_bias="0.02"
+            app:layout_constraintHeight_max="100dp"
+            app:layout_constraintHorizontal_bias="0.05"
+            />
+        <ImageView
+            android:id="@+id/footer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/historiamanaure"
+            app:layout_constraintStart_toEndOf="@id/footer1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/old_3"
+            android:adjustViewBounds="true"
+            app:layout_constraintVertical_bias="0.02"
+            app:layout_constraintHeight_max="100dp"
+            app:layout_constraintHorizontal_bias="0.9"
+            />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

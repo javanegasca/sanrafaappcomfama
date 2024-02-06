@@ -9,4 +9,26 @@
     <string name="descripcionrestaurantes">Debido a que el departamento de La Guajira integra sabores
         de diferentes partes del mundo y la variedad de insumos locales para a su cocina, se puede
         asegurar que los visitantes quedarán enamorados de la culinaria guajira. </string>
+
+    <string name="opcion1">Ingles</string>
+    <string name="opcion2">Español</string>
+    <string name="opcion3">Catalan</string>
+    <string name="opcion4">Reseña</string>
+    <string name="opcion5">Acerca de</string>
+
+    <string name="titulohomeresena2">Historia de Manaure </string>
+
+    <string name="historiamanaure">De acuerdo a la tradición oral, Manaure debe su nombre al resplandor de un indígena
+        de gran abolengo que legó su nombre a este sitio geográfico; De acuerdo con las investigaciones realizadas,
+        efectivamente en la vecina república de Venezuela existió un cacique indígena de la tribu Caquetío
+        con mucho prestigio el cual respondía al nombre de Manaure, este indígena inicialmente se mostró muy
+        amigable con los conquistadores y los evangelizadores, pero luego se enfrentó a los españoles
+        y en 1821 fue asesinado por el ejército de Morillo.
+
+        El Municipio de Manaure fue creado mediante ordenanza 015 de 1973, la cual comenzó a regir a partir del 1 de octubre de 1974.
+        Esta fecha está institucionalizada para festejar el aniversario de Manaure.
+        Este proyecto de ordenanza fue presentado por el hijo de Manaure y diputado Manuel Mengual Meza y fue sancionado por el Dr. Benjamín Armenta López,
+        Gobernador del Departamento de la Guajira.</string>
+
+
 </resources>

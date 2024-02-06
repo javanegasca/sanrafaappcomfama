@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -56,5 +58,33 @@ public class Home extends AppCompatActivity {
         });
 
 
+    }
+    //Cargar el menú de opciones deseado
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
+    }
+
+    //Qué hago en cada opción del menú
+    public boolean onOptionsItemSelected(MenuItem item){
+        int itemseleccionado=item.getItemId();
+     if (itemseleccionado==R.id.opcion1){
+         Toast.makeText(this, "Presiono opción 1", Toast.LENGTH_SHORT).show();
+
+     }else if(itemseleccionado==R.id.opcion2){
+         Toast.makeText(this, "Presiono opción 2", Toast.LENGTH_SHORT).show();
+
+     } else if (itemseleccionado==R.id.opcion3) {
+
+
+     } else if (itemseleccionado==R.id.opcion4) {
+         Intent intentResena = new Intent(Home.this,Resena.class);
+         startActivity(intentResena);
+
+     } else if (itemseleccionado==R.id.opcion5) {
+         Toast.makeText(this, "Presiono opción 5", Toast.LENGTH_SHORT).show();
+
+     }
+     return super.onOptionsItemSelected(item);
     }
 }
