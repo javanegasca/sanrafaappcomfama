@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">SanRafa</string>
+    <string name="app_name">Manaure</string>
+
+    <string name="botonHoteles">Hoteles</string>
+    <string name="botonRestaurantes">Restaurantes</string>
+    <string name="botonSitios">Sitios turisticos</string>
+
     <string name="titulohomehoteles">Hoteles en Manaure</string>
     <string name="descripcionhomehoteles">En nuestro pueblo encontraras desde 35000 COP hasta las
         lujosas cabañas dotadas de todos los elementos para promover un descanso restaurador</string>
@@ -12,7 +17,7 @@
 
     <string name="opcion1">Ingles</string>
     <string name="opcion2">Español</string>
-    <string name="opcion3">Catalan</string>
+    <string name="opcion3">Francés</string>
     <string name="opcion4">Reseña</string>
     <string name="opcion5">Acerca de</string>
 

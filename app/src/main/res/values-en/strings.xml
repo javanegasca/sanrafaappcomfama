@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="botonHoteles">Hotels</string>
+    <string name="botonRestaurantes">Restaurants</string>
+    <string name="botonSitios">tourist sites</string>
+
+    <string name="app_name">SanRafa</string>
+    <string name="titulohomehoteles">Hotels in Manaure</string>
+    <string name="descripcionhomehoteles">In our town, you will find accommodations ranging from 35000 COP
+        to luxurious cabins equipped with all the elements to promote a restorative rest.</string>
+    <string name="botonhomehoteles">See hoteles</string>
+
+    <string name="titulohomerestaurantes">Restaurants in Manaure</string>
+    <string name="descripcionrestaurantes">Due to La Guajira department integrating flavours from different
+        parts of the world and the variety of local ingredients for its cuisine, it can be ensured
+        that visitors will fall in love with Guajiras culinary delights. </string>
+
+    <string name="opcion1">English</string>
+    <string name="opcion2">Spanish</string>
+    <string name="opcion3">French</string>
+    <string name="opcion4">Review</string>
+    <string name="opcion5">About us</string>
+
+    <string name="titulohomeresena2">History of Manaure </string>
+
+    <string name="historiamanaure">"According to oral tradition, Manaure owes its name to the radiance
+        of a high-born indigenous individual who bequeathed his name to this geographical site.
+        According to research, indeed, in the neighboring Republic of Venezuela, there was an indigenous
+        chief of the Caquetío tribe with much prestige who went by the name of Manaure. Initially,
+        this indigenous person was very friendly with the conquistadors and the evangelizers,
+        but later he confronted the Spaniards and in 1821 was assassinated by Morillos army.
+
+        The Municipality of Manaure was created by ordinance 015 of 1973, which began to take effect
+        on October 1, 1974. This date is institutionalized to celebrate Manaures anniversary.
+        This ordinance project was presented by Manaures son and deputy, Manuel Mengual Meza,
+        and was sanctioned by Dr. Benjamín Armenta López, Governor of the Department of La Guajira.</string>
+</resources>

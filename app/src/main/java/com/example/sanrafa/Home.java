@@ -3,12 +3,15 @@ package com.example.sanrafa;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import java.util.Locale;
 
 public class Home extends AppCompatActivity {
 
@@ -47,6 +50,8 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Home.this, "Hizo click en Restaurantes", Toast.LENGTH_SHORT).show();
+                Intent intent =  new Intent(Home.this, Restaurantes.class);
+                startActivity(intent);
             }
         });
 
@@ -69,12 +74,19 @@ public class Home extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         int itemseleccionado=item.getItemId();
      if (itemseleccionado==R.id.opcion1){
-         Toast.makeText(this, "Presiono opción 1", Toast.LENGTH_SHORT).show();
+        this.cambiarIdioma("en");
+        Intent intentIngles= new Intent(Home.this, Home.class);
+        startActivity(intentIngles);
 
      }else if(itemseleccionado==R.id.opcion2){
-         Toast.makeText(this, "Presiono opción 2", Toast.LENGTH_SHORT).show();
+         this.cambiarIdioma("es");
+         Intent intentIngles= new Intent(Home.this, Home.class);
+         startActivity(intentIngles);
 
      } else if (itemseleccionado==R.id.opcion3) {
+         this.cambiarIdioma("fr");
+         Intent intentIngles= new Intent(Home.this, Home.class);
+         startActivity(intentIngles);
 
 
      } else if (itemseleccionado==R.id.opcion4) {
@@ -86,5 +98,19 @@ public class Home extends AppCompatActivity {
 
      }
      return super.onOptionsItemSelected(item);
+    }
+    public void cambiarIdioma(String idioma){
+        //Configurar el idioma del telefono desde la app
+
+        Locale lenguaje= new Locale(idioma);
+        Locale.setDefault(lenguaje);
+
+        //Configuramos globalmente el telefono
+        Configuration configuracionTelefono=getResources().getConfiguration();
+        configuracionTelefono.locale=lenguaje;
+
+        //Ejecuto la configuración establecida
+        getBaseContext().getResources().updateConfiguration(configuracionTelefono,getBaseContext().getResources().getDisplayMetrics());
+
     }
 }
