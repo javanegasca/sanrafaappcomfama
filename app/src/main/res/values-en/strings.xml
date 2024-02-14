@@ -15,6 +15,26 @@
         parts of the world and the variety of local ingredients for its cuisine, it can be ensured
         that visitors will fall in love with Guajiras culinary delights. </string>
 
+    <string name="titulohomesitios">tourist sites</string>
+    <string name="descripcionresitios">The stillness of the blue and clear skies of the Guajira peninsula,
+        desert area of northeastern Colombia, is interrupted by bright pink flowers that dissolve
+        in spirals over the lagoons of the Los Flamencos Flora and Fauna Sanctuary. </string>
+
+    <string name="nombre">Julian Vanegas Calle</string>
+    <string name="acercaDe">Diseñador gráco, animador 3D y actualmente
+en proceso de formación como Técnico en
+Desarrollo de Software. Combino la creatividad
+visual con conocimientos técnicos para crear
+experiencias únicas. Mi perl abarca desde el
+
+diseño gráco hasta la programación, destacán-
+dome en el área de desarrollo Front end. Poseo
+
+competencias laborales de dinamismo, creativi-
+dad y atención al detalle, fundamentales para
+
+impulsar proyectos hacia el siguiente nivel.</string>
+
     <string name="opcion1">English</string>
     <string name="opcion2">Spanish</string>
     <string name="opcion3">French</string>

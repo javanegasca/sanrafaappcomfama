@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blanchedalmond"
     tools:context=".Sitios">
 
     <ImageView
@@ -14,21 +15,76 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/salinas"
+        android:src="@drawable/santuario_2"
         android:adjustViewBounds="true"
         app:layout_constraintVertical_bias="0"
         />
-    <TextureView
-        android:id="@+id/titulohomesitios"
+    <TextView
+        android:id="@+id/titulohomeSitios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/bannersitios"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-
-
+        android:text="@string/titulohomesitios"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.02"
         />
+    <TextView
+        android:id="@+id/descripcionsitios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/titulohomeSitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/descripcionresitios"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintVertical_bias="0.02"
+        android:paddingHorizontal="15dp"
+        />
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/descripcionsitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/santuario"
+        android:adjustViewBounds="true"
+        app:layout_constraintVertical_bias="0.1"
+        />
+    <ImageView
+        android:id="@+id/manorestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/foto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/mano"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.3"
+        />
+    <Button
+        android:id="@+id/botonhomehoteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/foto"
+        app:layout_constraintStart_toEndOf="@id/manorestaurantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.4"
+        android:backgroundTint="@color/brown"
+        android:text="@string/botonSitios"
+        />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

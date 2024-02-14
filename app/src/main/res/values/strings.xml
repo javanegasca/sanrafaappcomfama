@@ -15,6 +15,27 @@
         de diferentes partes del mundo y la variedad de insumos locales para a su cocina, se puede
         asegurar que los visitantes quedarán enamorados de la culinaria guajira. </string>
 
+    <string name="nombre">Julian Vanegas Calle</string>
+    <string name="acercaDe">Diseñador gráco, animador 3D y actualmente
+en proceso de formación como Técnico en
+Desarrollo de Software. Combino la creatividad
+visual con conocimientos técnicos para crear
+experiencias únicas. Mi perl abarca desde el
+
+diseño gráco hasta la programación, destacán-
+dome en el área de desarrollo Front end. Poseo
+
+competencias laborales de dinamismo, creativi-
+dad y atención al detalle, fundamentales para
+
+impulsar proyectos hacia el siguiente nivel.</string>
+
+    <string name="titulohomesitios">Sitios Turisticos</string>
+    <string name="descripcionresitios">
+        La quietud de los cielos azules y despejados de la península de la Guajira,
+        zona desértica del nororiente colombiano, se ve interrumpida por arreboles de un rosado intenso que se disuelven
+        en espirales sobre las lagunas del Santuario de Flora y Fauna Los Flamencos. </string>
+
     <string name="opcion1">Ingles</string>
     <string name="opcion2">Español</string>
     <string name="opcion3">Francés</string>

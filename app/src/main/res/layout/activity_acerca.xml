@@ -4,7 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blanchedalmond"
     tools:context=".Acerca">
+
+    <ImageView
+        android:id="@+id/bannerFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/foto"
+        android:adjustViewBounds="true"
+        app:layout_constraintVertical_bias="0"
+        android:rotation="90"
+        />
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bannerFoto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/nombre"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.2"
+        />
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/acercaDe"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintVertical_bias="0.5"
+        android:paddingHorizontal="20dp"
+        />
+
 
 
 

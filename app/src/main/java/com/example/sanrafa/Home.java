@@ -59,6 +59,8 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Home.this, "Hizo click en Sitios Turisticos", Toast.LENGTH_SHORT).show();
+                Intent intent =  new Intent(Home.this, Sitios.class);
+                startActivity(intent);
             }
         });
 
