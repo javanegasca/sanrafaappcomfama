@@ -18,7 +18,7 @@ public class HotelAdaptador extends RecyclerView.Adapter<HotelAdaptador.viewHold
 
     public ArrayList<Hotel> listaHoteles;
 
-    //constructo vacio
+    //constructor vacio
     public HotelAdaptador() {
     }
 
