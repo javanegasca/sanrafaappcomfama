@@ -1,5 +1,6 @@
 package com.example.sanrafa.adaptadores;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.sanrafa.R;
+import com.example.sanrafa.RestaurantesAmpliados;
 import com.example.sanrafa.moldes.Restaurantes;
 
 import java.util.ArrayList;
@@ -63,6 +65,15 @@ public class RestauranteAdaptador extends RecyclerView.Adapter<RestauranteAdapta
             fotomolderestaurante.setImageResource(restaurantes.getFotografia());
             nombrerestaurantemolde.setText(restaurantes.getNombre());
             preciorestaurantemolde.setText(restaurantes.getPrecio());
+
+            //Quiero escuchar click en cada uno de los elementos de la lista
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent= new Intent(itemView.getContext(), RestaurantesAmpliados.class);
+                    itemView.getContext().startActivity(intent);
+                }
+            });
         }
     }
 }

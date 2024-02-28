@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.3"
         />
     <Button
-        android:id="@+id/botonhomehoteles"
+        android:id="@+id/botonhomesitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/foto"
