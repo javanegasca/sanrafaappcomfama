@@ -6,4 +6,99 @@
     android:layout_height="match_parent"
     tools:context=".RestaurantesAmpliados">
 
+    <TextView
+        android:id="@+id/tituloampliadorestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="TITULO PRUEBA"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.02"
+        />
+    <ImageView
+        android:id="@+id/fotoampliandorestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tituloampliadorestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:src="@drawable/moldehotel"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:id="@+id/calificacionrestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calificación: 5"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliandorestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintVertical_bias="0.02"
+        />
+    <TextView
+        android:id="@+id/telefonorestaurantes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliandorestaurantes"
+        app:layout_constraintStart_toEndOf="@id/calificacionrestaurantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/descripcionrestaurantes"
+        android:text="Nuestas lineas de Atención son: 3207205878 - 3004569978 "
+        app:layout_constraintVertical_bias="0.5"
+        android:textAlignment="center"
+
+
+        />
+    <TextView
+        android:id="@+id/descripcionrestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/calificacionrestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Lorem ipsum dolor sit amet consectetur, adipiscing elit turpis viverra porta arcu, nibh sodales scelerisque dictum. Sodales proin conubia dictum eleifend netus ullamcorper, cursus mus cubilia potenti in aliquam nec, mauris turpis primis ad dictumst. Aptent molestie dapibus mollis laoreet massa ullamcorper fames eros feugiat arcu viverra placerat nisl, phasellus rutrum habitasse lacinia non leo ultricies magna sociis at taciti aliquam dui, duis senectus mattis tincidunt fusce potenti interdum nulla luctus mi primis fermentum."
+        android:paddingHorizontal="30dp"
+        app:layout_constraintVertical_bias="0.1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/direccionrestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/descripcionrestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:text="El hotel queda a 25km del Aerepuerto de Rioacha"
+        android:textStyle="italic"
+
+
+
+        />
+    <TextView
+        android:id="@+id/preciorestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/direccionrestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Platos desde $30.000 COP"
+        app:layout_constraintVertical_bias="0.2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

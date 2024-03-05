@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HotelesAmpliados">
+    tools:context=".HotelesAmpliados"
+
+    >
 
     <TextView
         android:id="@+id/tituloampliadohoteles"
@@ -33,7 +35,7 @@
         android:adjustViewBounds="true"
         />
     <TextView
-        android:id="@+id/calificacionhoteles"
+        android:id="@+id/calificacionampliandohoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calificación: 5"
@@ -46,13 +48,13 @@
         app:layout_constraintVertical_bias="0.02"
         />
     <TextView
-        android:id="@+id/telefonohoteles"
+        android:id="@+id/telefonoampliandohoteles"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/fotoampliandohoteles"
-        app:layout_constraintStart_toEndOf="@id/calificacionhoteles"
+        app:layout_constraintStart_toEndOf="@id/calificacionampliandohoteles"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/descripcionhoteles"
+        app:layout_constraintBottom_toTopOf="@id/descripcionampliandohoteles"
         android:text="Nuestas lineas de Atención son: 3207205878 - 3004569978 "
         app:layout_constraintVertical_bias="0.5"
         android:textAlignment="center"
@@ -60,10 +62,10 @@
 
         />
     <TextView
-        android:id="@+id/descripcionhoteles"
+        android:id="@+id/descripcionampliandohoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/calificacionhoteles"
+        app:layout_constraintTop_toBottomOf="@id/calificacionampliandohoteles"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,10 +75,10 @@
         android:textAlignment="center"
         />
     <TextView
-        android:id="@+id/direccionhoteles"
+        android:id="@+id/direccionampliandohoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/descripcionhoteles"
+        app:layout_constraintTop_toBottomOf="@id/descripcionampliandohoteles"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,10 +90,10 @@
 
         />
     <TextView
-        android:id="@+id/preciohoteles"
+        android:id="@+id/precioampliandohoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/direccionhoteles"
+        app:layout_constraintTop_toBottomOf="@id/direccionampliandohoteles"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

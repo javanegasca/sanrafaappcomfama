@@ -22,6 +22,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:src="@drawable/moldehotel"
+            app:layout_constraintVertical_bias="0"
             android:scaleType="fitXY"
             />
 
@@ -33,7 +34,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.1"
             android:text="HOTEL KAIGEE"
             android:textSize="16dp"
             android:layout_marginTop="5dp"
@@ -43,15 +45,34 @@
             android:id="@+id/preciohotelmolde"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/fotomoldehotel"
-            app:layout_constraintStart_toEndOf="@id/nombrehotelmolde"
+            app:layout_constraintTop_toBottomOf="@id/nombrehotelmolde"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.3"
             android:text="$150.000"
             android:textSize="18dp"
             android:textStyle="bold"
 
             />
+        <TextView
+            android:id="@+id/telefonohotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/preciohotelmolde"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.7"
+            android:text="300285798"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            />
+
+
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
