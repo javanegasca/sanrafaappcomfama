@@ -72,6 +72,7 @@ public class SitiosAdaptador extends RecyclerView.Adapter<SitiosAdaptador.viewHo
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(itemView.getContext(), SitiosAmpliados.class);
+                    intent.putExtra("datossitios",sitios);
                     itemView.getContext().startActivity(intent);
                 }
             });

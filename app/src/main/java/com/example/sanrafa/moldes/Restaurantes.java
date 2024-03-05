@@ -1,6 +1,8 @@
 package com.example.sanrafa.moldes;
 
-public class Restaurantes {
+import java.io.Serializable;
+
+public class Restaurantes implements Serializable {
     private String nombre;
     private String precio;
     private String descripcion;

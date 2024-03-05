@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroundsitios"
     tools:context=".SitiosAmpliados">
     <TextView
         android:id="@+id/tituloampliadositios"
@@ -66,7 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="Lorem ipsum dolor sit amet consectetur, adipiscing elit turpis viverra porta arcu, nibh sodales scelerisque dictum. Sodales proin conubia dictum eleifend netus ullamcorper, cursus mus cubilia potenti in aliquam nec, mauris turpis primis ad dictumst. Aptent molestie dapibus mollis laoreet massa ullamcorper fames eros feugiat arcu viverra placerat nisl, phasellus rutrum habitasse lacinia non leo ultricies magna sociis at taciti aliquam dui, duis senectus mattis tincidunt fusce potenti interdum nulla luctus mi primis fermentum."
+        android:text="espacio para la descrippción"
         android:paddingHorizontal="30dp"
         app:layout_constraintVertical_bias="0.1"
         android:textAlignment="center"
@@ -98,6 +99,30 @@
         app:layout_constraintVertical_bias="0.2"
         android:textSize="20dp"
         android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/Horariositios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/preciositios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Horario de atención: "
+        app:layout_constraintVertical_bias="0.2"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/recomendacionsitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Horariositios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Recomendaciones: "
+        app:layout_constraintVertical_bias="0.2"
+        android:textSize="16dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
